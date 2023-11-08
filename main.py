@@ -1,3 +1,6 @@
+import problema1
+
+
 ''' Hasta ahora
 hemos trabajado con variable
 que permiten almacenar
@@ -55,5 +58,8 @@ if __name__ == '__main__':
     print(lista1)
     lista1[0] = 1
     print(lista1)
+
+    print()
+    problema1.sumar_5_enteros()
 
 
