@@ -1,59 +1,45 @@
-''' Hasta ahora
-hemos trabajado con variable
-que permiten almacenar
-un único valor
-'''
-
+import problema1
+from alumnos import alumnos
 
 edad = 12
-
-altura = 1.79
-
-nombre = "juan"
-
+altura = 1.75
+nombre = "Juan"
 estado = True
 
-'''
-En python podemos
-usar una variable
-que almacene una 
-colección de datos
-y luego accederla
-usando un subíndice
-'''
-
-# Lista de enteros
-lista1 = [10, 5, 3, 9]
-
-#lista de decimales
-lista2 = [1.78, 2.66, 1.55, 89.4, 6.9]
-
-#lista de string
-lista3 = ["Lunes", "Martes", "Miércoles"]
-
-'''
-Lista de elementos 
-de distinto tipo
-'''
-
+lista1 = [10, 2, 3, 4]
+lista2 = [1.72, 1.54, 1.23, 1.64]
+lista3 = ["lunes", "martes", "miercoles"]
 lista4 = ["juan", 45, 1.92, False]
 
 
 
+
 if __name__ == '__main__':
-
-    '''
-    Cantidad de elementos de cada lista:
-    '''
-
+    # Mostrar cantidad de elementos en las listas
     print(len(lista1))
     print(len(lista2))
     print(len(lista3))
     print(len(lista4))
 
+    #Establecer un espacio
     print()
+    # Mostar elementos de la lista
     print(lista1)
+    print()
+    # Cambiar valores de listas
     lista1[0] = 1
     print(lista1)
+
+    print()
+    # Mostrar un valor exacto de lista, siempre inicia en 0 el primer elemento.
+    print(lista1[3])
+
+    print()
+
+    problema1.sumar_5_enteros()
+
+    print()
+
+    alumnos()
 
 
