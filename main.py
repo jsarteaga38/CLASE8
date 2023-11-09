@@ -16,22 +16,25 @@ lista4 = ["juan", 45, 1.92, False]
 
 if __name__ == '__main__':
     # Mostrar cantidad de elementos en las listas
-    #print(len(lista1))
-    #print(len(lista2))
-    #print(len(lista3))
-    #print(len(lista4))
+    print(len(lista1))
+    print(len(lista2))
+    print(len(lista3))
+    print(len(lista4))
+
     #Establecer un espacio
-    #print()
+    print()
     # Mostar elementos de la lista
-    #print(lista1)
-    #print()
+    print(lista1)
+    print()
     # Cambiar valores de listas
-    #lista1[0] = 1
-    #print(lista1)
-    #print()
+    lista1[0] = 1
+    print(lista1)
+
+    print()
     # Mostrar un valor exacto de lista, siempre inicia en 0 el primer elemento.
-    #print(lista1[3])
-    #print()
+    print(lista1[3])
+
+    print()
 
     print("LISTA DE NUMEROS Y SUMAS")
     problema1.sumar_5_enteros()
