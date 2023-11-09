@@ -16,7 +16,7 @@ lista4 = ["juan", 45, 1.92, False]
 
 if __name__ == '__main__':
     # Mostrar cantidad de elementos en las listas
-    print(len(lista1))
+    '''print(len(lista1))
     print(len(lista2))
     print(len(lista3))
     print(len(lista4))
@@ -34,12 +34,12 @@ if __name__ == '__main__':
     # Mostrar un valor exacto de lista, siempre inicia en 0 el primer elemento.
     print(lista1[3])
 
-    print()
-
+    print()'''
+    print("LISTA NUMEROS CON SUMAS")
     problema1.sumar_5_enteros()
 
     print()
-
+    print("NOTAS DE ALUMNOS")
     alumnos()
 
 
